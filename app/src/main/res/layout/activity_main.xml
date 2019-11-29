@@ -1,0 +1,82 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/login_bg"
+    >
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/title1_template"
+        android:text="登录"
+        android:background="#177cb0"
+        android:textSize="30sp"
+        android:textColor="#003472"
+        android:paddingBottom="10sp"
+        android:paddingLeft="60sp"/>
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/sina"
+        android:layout_centerInParent="true"
+        android:background="@android:color/transparent"
+        android:text="    新浪微博"
+        android:textSize="22sp"
+        android:drawableLeft="@drawable/account_sina"
+        android:paddingLeft="190px"
+        android:paddingRight="190px"/>
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/log"
+        android:layout_above="@+id/sina"
+        android:layout_centerHorizontal="true"
+        android:background="@android:color/transparent"
+        android:text="    用户名登陆"
+        android:textSize="22sp"
+        android:drawableLeft="@drawable/ic_user"
+        android:paddingLeft="190px"
+        android:paddingRight="190px"
+        android:paddingBottom="35sp"
+        android:paddingTop="30sp" />
+
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/tecent"
+        android:layout_below="@+id/sina"
+        android:layout_centerHorizontal="true"
+        android:background="@android:color/transparent"
+        android:text="    腾讯微博"
+        android:textSize="22sp"
+        android:drawableLeft="@drawable/account_tencent"
+        android:paddingLeft="190px"
+        android:paddingRight="190px"
+        android:paddingTop="40sp"/>
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/sign_in1"
+        android:layout_below="@id/tecent"
+        android:layout_centerHorizontal="true"
+        android:background="@android:color/transparent"
+        android:text="注册"
+        android:textSize="17sp"/>
+    <ImageView
+        android:layout_width="300dp"
+        android:layout_height="70dp"
+        android:id="@+id/new_news"
+        android:layout_above="@id/sign"
+        android:src="@drawable/splash_logo"
+        android:layout_centerHorizontal="true"/>
+
+
+
+
+
+
+
+
+
+</RelativeLayout>
