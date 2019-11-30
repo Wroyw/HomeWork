@@ -1,3 +1,11 @@
 <resources>
     <string name="app_name">HomeWork</string>
+    <string name="sign_in">登录</string>
+    <string name="s_sina">     新浪微博</string>
+    <string name="u_signin">    用户名登陆</string>
+    <string name="t_tecent">    腾讯微博</string>
+    <string name="sign_up">注册</string>
+    <string name="c_code">密码</string>
+    <string name="u_name">用户名</string>
+    <string name="uc_signin">用户名密码登陆</string>
 </resources>

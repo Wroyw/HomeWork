@@ -7,36 +7,40 @@
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:id="@+id/title1_template"
-        android:text="登录"
+        android:text="@string/sign_in"
         android:background="#177cb0"
         android:textSize="30sp"
         android:textColor="#003472"
         android:paddingBottom="10sp"
-        android:paddingLeft="60sp"/>
+        android:paddingStart="60sp"
+        android:paddingLeft="60dp"
+        android:paddingRight="120dp"/>
     <Button
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:id="@+id/sina"
         android:layout_centerInParent="true"
         android:background="@android:color/transparent"
-        android:text="    新浪微博"
+        android:text="@string/s_sina"
         android:textSize="22sp"
+        android:drawableStart="@drawable/account_sina"
         android:drawableLeft="@drawable/account_sina"
-        android:paddingLeft="190px"
-        android:paddingRight="190px"/>
+        android:paddingLeft="70dp"
+        android:paddingRight="70dp"/>
 
     <Button
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:id="@+id/log"
+        android:id="@+id/sign_in1"
         android:layout_above="@+id/sina"
         android:layout_centerHorizontal="true"
         android:background="@android:color/transparent"
-        android:text="    用户名登陆"
+        android:text="@string/u_signin"
         android:textSize="22sp"
+        android:drawableStart="@drawable/ic_user"
         android:drawableLeft="@drawable/ic_user"
-        android:paddingLeft="190px"
-        android:paddingRight="190px"
+        android:paddingLeft="70dp"
+        android:paddingRight="70dp"
         android:paddingBottom="35sp"
         android:paddingTop="30sp" />
 
@@ -48,26 +52,28 @@
         android:layout_below="@+id/sina"
         android:layout_centerHorizontal="true"
         android:background="@android:color/transparent"
-        android:text="    腾讯微博"
+        android:text="@string/t_tecent"
         android:textSize="22sp"
+        android:drawableStart="@drawable/account_tencent"
         android:drawableLeft="@drawable/account_tencent"
-        android:paddingLeft="190px"
-        android:paddingRight="190px"
+        android:paddingLeft="70dp"
+        android:paddingRight="70dp"
         android:paddingTop="40sp"/>
     <Button
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:id="@+id/sign_in1"
+        android:id="@+id/sign_up1"
         android:layout_below="@id/tecent"
         android:layout_centerHorizontal="true"
         android:background="@android:color/transparent"
-        android:text="注册"
+        android:text="@string/sign_up"
         android:textSize="17sp"/>
+
     <ImageView
-        android:layout_width="300dp"
-        android:layout_height="70dp"
+        android:layout_width="@android:dimen/thumbnail_width"
+        android:layout_height="@android:dimen/thumbnail_height"
         android:id="@+id/new_news"
-        android:layout_above="@id/sign"
+        android:layout_above="@id/sign_in1"
         android:src="@drawable/splash_logo"
         android:layout_centerHorizontal="true"/>
 

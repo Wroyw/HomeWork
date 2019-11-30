@@ -14,8 +14,8 @@ public class MainActivity extends AppCompatActivity {
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
-        Button b1 = findViewById(R.id.sign_in1);
-        Button b2 = findViewById(R.id.log);
+        Button b1 = findViewById(R.id.sign_up1);
+        Button b2 = findViewById(R.id.sign_in1);
         Button b3 = findViewById(R.id.sina);
         Button b4 = findViewById(R.id.tecent);
         b1.setOnClickListener(new View.OnClickListener() {
